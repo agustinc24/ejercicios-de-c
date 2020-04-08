@@ -1,6 +1,5 @@
 int factorial (int b);
 #include <stdio.h>
-
 int s, g, b;
 int main()
 {
