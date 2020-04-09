@@ -1,25 +1,34 @@
 #include <stdio.h>
+float a;
+double tol, ri=1, rj;
 int main()
 {
- int i,j,factorial,potencia,x;
- double e;
- printf("Introduce el valor de x: ");
- scanf("%d",&x);
- // Calcula los primero 10 valores para e elevado a x.
-e=1.0;
- for (i=1;i<=10;i++)
- {
- //Calcula x elevada a una potencia i
- potencia=1;
- for (j=1;j<=i;j++)
- potencia=potencia*x;
- // Calcula el Factorial de i
- factorial=1;
- for (j=i;j>0;j--)
- factorial=factorial*j;
- //Acumula el valor de e
- e=e+(potencia/factorial);
- }
- printf("El valor de e elevado a x: %f", e);
- return 0;
+    do
+    {
+        printf("Ingrese un numero natural: ");
+        scanf("%f", &a);
+    }while(a<0);
+    if(a==0)
+    {
+        printf("La raiz de %.0f es: 0", a);
+    }
+    else
+    {
+        if(a==1)
+        {
+            printf("La raiz de %.0f es: 1", a);
+        }
+        else
+        {
+            printf("Ingrese tolerancia: ");
+    scanf("%lf", &tol);
+           do
+            {
+                rj=ri;
+                ri=(rj+(a/rj))/2;
+            }while((rj-ri)>=tol || (ri-rj)>=tol);
+            printf("La raiz de %f es: %f", a, ri);
+        }
+    }
+ return 1;
 }
