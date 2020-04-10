@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1586487742 source:c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicio 10-2.0\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1586486165 c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicio 10-2.0\funcio.h
+
+1586486829 source:c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicio 10-2.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1586486165 c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicio 10-2.0\header.h
+	<stdio.h>
+	"funcio.h"
+
