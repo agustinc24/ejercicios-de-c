@@ -9,7 +9,7 @@ int main()
         scanf("%d", &n1);
         printf("Ingrese el siguiente numero: ");
         scanf("%d", &n2);
-    }while(n1<0 && n2<0);
+    }while(n1<0 || n2<0);
 
     for(i=0; i<n1; i++)
     {
