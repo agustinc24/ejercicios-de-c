@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1586894832 source:c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicios del 23 en adelante\ejercicios guia 1\funciones.c
+	"header.h"
+
+1586892619 c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicios del 23 en adelante\ejercicios guia 1\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586895129 source:c:\users\elcav\onedrive\documentos\ejercicios progra\ejercicios del 23 en adelante\ejercicios guia 1\main.c
+	"header.h"
+

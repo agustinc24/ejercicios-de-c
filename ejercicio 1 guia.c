@@ -1,17 +1,17 @@
-int factorial (int b);
+long factorial (long b);
 #include <stdio.h>
-int s, g, b;
+long s, g, b;
 int main()
 {
     printf("Ingrese: ");
-    scanf("%d", &g);
+    scanf("%ld", &g);
     s = factorial(g);
     printf("El valor es: %d", s);
     return 1;
 }
-int factorial(int b)
+long factorial(long b)
 {
-    int i, valor=1;
+    long i, valor=1;
     for(i = b;i>1;i--)
     {
         valor=valor*i;
